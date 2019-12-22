@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Welcome to Cryptonite</title>
+</head>
+<body>
+    <div class="container" id="mainHeader">
+        <div class="row" id="mainHeaderRow">
+            <h1>CRYPTONITE <img class="coinsImage" src="img/coinsBackground.com.png"/></h1>
+        </div>
+    </div>
+    <div class="container" id="mainMenu">
+        <div class="row" id="menuCatalog">
+            <div class="col-xl col-md menuButton"></div>
+            <div class="col-xl-2 col-md-2 col-sm-2 menuButton"><button class="btn btn-primary btn-rounded" id="coinList">Coin List</button></div>
+            <div class="col-xl-2 col-md-2 col-sm-2 menuButton"><button class="btn btn-success btn-rounded" id="liveReports">Live Reports</button></div>
+            <div class="col-xl-2 col-md-2 col-sm-2 menuButton"><button class="btn btn-info btn-rounded" id="about">About</button></div>
+            <div class="col-xl col-md col-sm menuButton"></div>
+        </div>
+    </div>
+
+    <div class="container" id="coinsCatalogMain">
+        <div>
+            Live Search:
+            <input type="text" id="search" placeholder="Type here...">
+            </input>
+        </div>
+        <br/>
+        <div class="row" id="coinsCatalog">
+        </div>
+    </div>
+    <div class="container" id="graphReportsMain">
+        <div id="chartContainer"></div>
+    </div>
+    <div class="container" id="aboutMain">
+        <p>Hey, My Name is Denis. This is project #2, a simple crypto website with coins infromation and prices</p>
+        <p>It has a lot of.. umm... sort of live feed and stuff... </p>
+        <p>This is me in the picture, on a walk with my cat in my backyard</p>
+        <img class="mePicture" src="img/me.jpg">
+    </div>
+</body>
+</html>

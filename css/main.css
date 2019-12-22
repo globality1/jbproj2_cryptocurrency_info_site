@@ -1,0 +1,133 @@
+/** main menu design*/
+
+[class~=menuButton] {
+    float: left;
+    margin: 10px;
+}
+
+#menuCatalog {
+    height: 3%;
+}
+
+#mainHeader {
+    height: 3%;
+    
+}
+
+#mainHeaderRow {
+    display: grid !important;
+    text-align: left;
+    height: 140px;
+    background-image: url("../img/background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#mainHeaderRow > h1 {
+    line-height: 110px;
+    color: white;
+    padding: 30px;
+}
+
+.coinsImage {
+    width: 350px; 
+}
+
+@media screen and (max-width: 600px) {
+    .coinsImage {
+      display: none;
+    }
+}
+
+/** more info function design */
+
+.collapse > div > div > img {
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+
+
+.collapse > div > div > p {
+    font-size: 9px;
+    text-align:left;
+}
+
+.collapse {
+    margin: 2px;
+}
+
+.loader {
+    height: 40px;
+    width: 40px;
+
+}
+
+#searchInputDiv {
+    text-align: center !important;
+    width:100%;
+    height: 70px;
+}
+
+
+/** coins catalog design */
+
+#coinsCatalogMain {
+    width: 80%;
+    height: 120px;
+}
+
+#coinDisplay {
+    height: 100% !important;
+    border: 1px solid !important;
+    margin: 5px 5px 5px 5px !important;
+    box-shadow: 3px 3px 3px 3px #888888;
+    border-radius: 5px;
+}
+
+#coinDisplay > div> h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+[class~=custom-control] {
+    text-align: right;
+}
+
+#coinsCatalogMain {
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.loader {
+    margin-left: 40%;
+    margin-top: 2%;
+    height: 50%;
+}
+
+#coinDisplay > div> p {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+
+.mePicture {
+    width: 150px;
+    height: 150px;
+}
+
+#aboutMain {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#chartContainer {
+    height: 100%; 
+    width: 100%;
+}
+
+#graphReportsMain {
+    height: 500px;
+}
